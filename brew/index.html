@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Brew — кофе с доставкой</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">Brew</a>
+    <nav class="nav">
+      <a href="catalog.html">Каталог</a>
+      <a href="#">Подписка</a>
+      <a href="#">О нас</a>
+      <a href="#">Блог</a>
+    </nav>
+    <button class="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Свежий кофе<br>с доставкой</h1>
+        <p>Обжарка каждую неделю. Подписка от 990 ₽/мес. Более 40 сортов из лучших регионов мира.</p>
+        <div class="hero-actions">
+          <a href="catalog.html" class="btn btn-primary">Выбрать кофе</a>
+          <a href="#how" class="btn btn-outline">Как это работает</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true"></div>
+    </section>
+
+    <section class="steps" id="how">
+      <h2>Как это работает</h2>
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <h3>Выбираете кофе</h3>
+          <p>Минимум 2 позиции в подписке</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <h3>Указываете адрес</h3>
+          <p>Доставим за 2 дня в любой город</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <h3>Получаете посылку</h3>
+          <p>Свежая обжарка, дата на упаковке</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <h2>Хиты недели</h2>
+
+      <article class="card">
+        <div class="card-image">☕</div>
+        <div class="card-body">
+          <h3 class="card-title">Эфиопия Иргачеффе</h3>
+          <p class="card-meta">200 г · Фильтр</p>
+          <div class="card-bottom">
+            <span class="price">890 ₽</span>
+            <a href="product.html" class="btn-buy">Подробнее</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">☕</div>
+        <div class="card-body">
+          <h3 class="card-title">Колумбия Уила</h3>
+          <p class="card-meta">250 г · Эспрессо</p>
+          <div class="card-bottom">
+            <span class="price">1 090 ₽</span>
+            <a href="product.html" class="btn-buy">Подробнее</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">☕</div>
+        <div class="card-body">
+          <h3 class="card-title">Кения АА</h3>
+          <p class="card-meta">200 г · Фильтр</p>
+          <div class="card-bottom">
+            <span class="price">1 190 ₽</span>
+            <a href="product.html" class="btn-buy">Подробнее</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2025 Brew Coffee</span>
+    <span>Москва, ул. Тверская, 1</span>
+    <span>+7 (495) 000-00-00</span>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
